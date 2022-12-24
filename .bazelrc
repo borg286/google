@@ -1,0 +1,4 @@
+build --action_env=USER  --javacopt="-XepDisableAllChecks"'
+
+# Enable Bzlmod
+build:bzlmod --experimental_enable_bzlmod
